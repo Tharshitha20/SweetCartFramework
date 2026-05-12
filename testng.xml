@@ -4,14 +4,14 @@
 
 <suite name="SweetCartSuite">
 
-    <listeners>
-        <listener class-name="listeners.TestListener"/>
-    </listeners>
+    <test name="SweetCartAutomationTests">
 
-    <test name="LoginDataProviderTest">
         <classes>
-            <class name="base.BaseTest"/>
+            <class name="tests.HomeTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.BasketTest"/>
         </classes>
+
     </test>
 
 </suite>
